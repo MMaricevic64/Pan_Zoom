@@ -73,7 +73,7 @@ struct gesture_msg {
 
 //Global variable for socket path and socket
 #ifdef __linux__
-  std::string server_filename = "/tmp/image-viewer-server.sock"
+  std::string server_filename = "/tmp/image-viewer-server.sock";
   int sockfd;
 
 #elif _WIN32
@@ -173,10 +173,9 @@ void ImageViewer::receive_events() {
 	    strcpy(server_addr.sun_path, server_filename.c_str());
 
 	    sockfd = socket(AF_UNIX, SOCK_DGRAM, 0);
-      if (sockfd < 0) goto Exit; //Socket failed
 
 	    int bind_result = bind(sockfd, (struct sockaddr *) &server_addr, sizeof(server_addr));
-      if (bind_result < 0) goto Exit; //Bind failed
+      	if (bind_result < 0 || sockfd < 0) goto Exit; //Socket or Bind failed
 
 	#elif _WIN32
     	int Result = 0;
@@ -393,7 +392,7 @@ void ImageViewer::check_corner_colors()
         m_text_label->setText(s);
         //Sound feedback when rectangle is completed
         #ifdef __linux__
-        	cout << "\a" << "\n";
+        	std::cout << "\a" << "\n";
 		#elif _WIN32
 			Beep(523, 300); // 523 hertz (C5) for 300 milliseconds, this function is part of Windows.h   
 		#endif
