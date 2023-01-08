@@ -1,0 +1,2 @@
+data/starter_test/test1 multi-hand-zoom
+data/starter_test/test2 single-hand-zoom

@@ -1,0 +1,12 @@
+data/pictures/5 multi-hand-zoom
+data/pictures/6 multi-hand-zoom
+data/pictures/1 single-hand-zoom
+data/pictures/2 single-hand-zoom
+data/pictures/3 multi-hand-zoom
+data/pictures/4 multi-hand-zoom
+data/pictures/3 single-hand-zoom
+data/pictures/4 single-hand-zoom
+data/pictures/1 multi-hand-zoom
+data/pictures/2 multi-hand-zoom
+data/pictures/5 single-hand-zoom
+data/pictures/6 single-hand-zoom
