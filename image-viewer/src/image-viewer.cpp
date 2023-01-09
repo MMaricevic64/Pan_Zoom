@@ -392,7 +392,7 @@ void ImageViewer::check_corner_colors()
         m_text_label->setText(s);
         //Sound feedback when rectangle is completed
         #ifdef __linux__
-        	std::cout << "\a" << "\n";
+        	std::cerr << "\a";
 		#elif _WIN32
 			Beep(523, 300); // 523 hertz (C5) for 300 milliseconds, this function is part of Windows.h   
 		#endif
