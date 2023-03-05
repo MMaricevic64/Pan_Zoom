@@ -225,8 +225,8 @@ The order of tasks was not the same for all test users. 6 different [task orders
 - **Modality training** - 2 simple tasks (1 per each modality)
 
 - **HCI experiment** 
-    - all created tasks (number_of_pictures x 2 modalities), starts with a specific order of tasks (test-sequence-X.txt)
-    - the results of the experiments are recorded in the [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) folder
+    - all created tasks **(number_of_pictures x 2 modalities)**, starts with a specific order of tasks **(test-sequence-X.txt)**
+    - the HCI experiment results are recorded in the [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) folder
     - before conducting a new experiment, it is necessary to delete all [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) from the previous HCI         experiment
     
 - **Pan&Zoom termination** - in order to properly close the communication between two system modules, it is necessary to do the following:
