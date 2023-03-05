@@ -1,0 +1,13 @@
+username, test-sequence, test-image, modality, time-milliseconds
+kgraf, data/test-sequence-1.txt, data/pictures/1.png, multi-hand-zoom,56620
+kgraf, data/test-sequence-1.txt, data/pictures/2.png, multi-hand-zoom,53015
+kgraf, data/test-sequence-1.txt, data/pictures/3.png, multi-hand-zoom,69371
+kgraf, data/test-sequence-1.txt, data/pictures/4.png, multi-hand-zoom,86953
+kgraf, data/test-sequence-1.txt, data/pictures/5.png, single-hand-zoom,90139
+kgraf, data/test-sequence-1.txt, data/pictures/6.png, single-hand-zoom,71857
+kgraf, data/test-sequence-1.txt, data/pictures/5.png, multi-hand-zoom,100352
+kgraf, data/test-sequence-1.txt, data/pictures/6.png, multi-hand-zoom,104289
+kgraf, data/test-sequence-1.txt, data/pictures/3.png, single-hand-zoom,68731
+kgraf, data/test-sequence-1.txt, data/pictures/4.png, single-hand-zoom,65955
+kgraf, data/test-sequence-1.txt, data/pictures/1.png, single-hand-zoom,38716
+kgraf, data/test-sequence-1.txt, data/pictures/2.png, single-hand-zoom,40256

@@ -1,0 +1,13 @@
+username, test-sequence, test-image, modality, time-milliseconds
+acicak, data/test-sequence-4.txt, data/pictures/1.png, single-hand-zoom,49492
+acicak, data/test-sequence-4.txt, data/pictures/2.png, single-hand-zoom,74444
+acicak, data/test-sequence-4.txt, data/pictures/3.png, single-hand-zoom,117072
+acicak, data/test-sequence-4.txt, data/pictures/4.png, single-hand-zoom,95694
+acicak, data/test-sequence-4.txt, data/pictures/5.png, multi-hand-zoom,131408
+acicak, data/test-sequence-4.txt, data/pictures/6.png, multi-hand-zoom,104150
+acicak, data/test-sequence-4.txt, data/pictures/5.png, single-hand-zoom,116989
+acicak, data/test-sequence-4.txt, data/pictures/6.png, single-hand-zoom,142663
+acicak, data/test-sequence-4.txt, data/pictures/3.png, multi-hand-zoom,98475
+acicak, data/test-sequence-4.txt, data/pictures/4.png, multi-hand-zoom,99715
+acicak, data/test-sequence-4.txt, data/pictures/1.png, multi-hand-zoom,69659
+acicak, data/test-sequence-4.txt, data/pictures/2.png, multi-hand-zoom,47365
