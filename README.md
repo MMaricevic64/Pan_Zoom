@@ -208,7 +208,7 @@ The order of tasks was not the same for all test users. 6 different [task orders
    ```
    cd Pan_Zoom
    cd mediapipe
-   bash build_pan_zoom.sh windows <path_to_the_python.exe_file> (eg *C://Users//Mario//AppData//Local//Programs//Python//Python310//python.exe*)
+   bash build_pan_zoom.sh windows <path_to_the_python.exe_file> (eg C://Users//Mario//AppData//Local//Programs//Python//Python310//python.exe)
    ```
 #### Image-viewer
 - Open **„Development Command Prompt for VS“** and enter the following commands:
