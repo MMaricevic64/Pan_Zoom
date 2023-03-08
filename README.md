@@ -52,6 +52,8 @@ The above results were additionally supported by the [analysis of standardized q
   </tr>
 </table>
 
+It is necessary to delete all previously obtained [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) before conducting the new HCI experiment.
+
 ### Add new tasks
 
 1.  Create an image containing rectangles of different colors using the MS Paint application or some other tool (preferably with the highest possible resolution)
