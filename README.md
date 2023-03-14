@@ -52,6 +52,8 @@ The above results were additionally supported by the [analysis of standardized q
   </tr>
 </table>
 
+It is necessary to delete all previously obtained [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) before conducting the new HCI experiment.
+
 ### Add new tasks
 
 1.  Create an image containing rectangles of different colors using the MS Paint application or some other tool (preferably with the highest possible resolution)
@@ -208,7 +210,7 @@ The order of tasks was not the same for all test users. 6 different [task orders
    ```
    cd Pan_Zoom
    cd mediapipe
-   bash build_pan_zoom.sh windows <path_to_the_python.exe_file> (eg *C://Users//Mario//AppData//Local//Programs//Python//Python310//python.exe*)
+   bash build_pan_zoom.sh windows <path_to_the_python.exe_file> (eg C://Users//Mario//AppData//Local//Programs//Python//Python310//python.exe)
    ```
 #### Image-viewer
 - Open **„Development Command Prompt for VS“** and enter the following commands:
@@ -225,8 +227,8 @@ The order of tasks was not the same for all test users. 6 different [task orders
 - **Modality training** - 2 simple tasks (1 per each modality)
 
 - **HCI experiment** 
-    - all created tasks (number_of_pictures x 2 modalities), starts with a specific order of tasks (test-sequence-X.txt)
-    - the results of the experiments are recorded in the [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) folder
+    - all created tasks **(number_of_pictures x 2 modalities)**, starts with a specific order of tasks **(test-sequence-X.txt)**
+    - the HCI experiment results are recorded in the [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) folder
     - before conducting a new experiment, it is necessary to delete all [results](https://github.com/MMaricevic64/Pan_Zoom/tree/master/results) from the previous HCI         experiment
     
 - **Pan&Zoom termination** - in order to properly close the communication between two system modules, it is necessary to do the following:
